@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .shadow-neumorphic {
+    box-shadow: 8px 8px 16px #bebebe, -8px -8px 16px #ffffff;
+  }
+
+  .shadow-neumorphic-hover {
+    box-shadow: 12px 12px 24px #bebebe, -12px -12px 24px #ffffff;
+  }
+
+  .shadow-inset {
+    box-shadow: inset 6px 6px 12px #bebebe, inset -6px -6px 12px #ffffff;
+  }
+
+  .text-shadow-3d {
+    text-shadow: 2px 2px 4px rgba(190, 190, 190, 0.6),
+      -2px -2px 4px rgba(255, 255, 255, 0.8);
+  }
+}
